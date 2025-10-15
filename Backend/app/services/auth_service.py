@@ -1,3 +1,4 @@
+import os
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from jose import JWTError, jwt
@@ -6,8 +7,8 @@ from sqlalchemy.orm import Session
 from app.database import get_db
 from app.models.user import User
 
-SECRET_KEY = "taskflow-secret-key-change-this"
-ALGORITHM = "HS256"
+SECRET_KEY = os.getenv("SECRET_KEY", "taskflow-secret-key-change-this")
+ALGORITHM = os.getenv("ALGORITHM", "HS256")
 
 security = HTTPBearer()
 
