@@ -8,10 +8,10 @@
 
 <br/>
 
-[![GitHub Release](https://img.shields.io/github/v/release/mohammed-m-alhaj/taskflow?include_prereleases&style=flat-square&color=2563EB)](https://github.com/mohammed-m-alhaj/taskflow/releases)
-[![GitHub Stars](https://img.shields.io/github/stars/mohammed-m-alhaj/taskflow?style=flat-square&color=yellow&label=⭐%20Stars)](https://github.com/mohammed-m-alhaj/taskflow/stargazers)
+[![GitHub Release](https://img.shields.io/github/v/release/alhaj-ai/taskflow?include_prereleases&style=flat-square&color=2563EB)](https://github.com/alhaj-ai/taskflow/releases)
+[![GitHub Stars](https://img.shields.io/github/stars/alhaj-ai/taskflow?style=flat-square&color=yellow&label=⭐%20Stars)](https://github.com/alhaj-ai/taskflow/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![CI](https://github.com/mohammed-m-alhaj/taskflow/actions/workflows/ci.yml/badge.svg)](https://github.com/mohammed-m-alhaj/taskflow/actions)
+[![CI](https://github.com/alhaj-ai/taskflow/actions/workflows/ci.yml/badge.svg)](https://github.com/alhaj-ai/taskflow/actions)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white)](docker-compose.yml)
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -55,8 +55,8 @@ Get pre-built, production-ready APK packages for Android (Android 6.0+ / API 23+
 
 | Version | Target Architecture | File Size | Recommended For | Link |
 |:---|:---:|:---:|:---|:---|
-| **Optimized** | **ARM64-v8a** | **~19.4 MB** | **Most Modern Phones** (Faster download, lightweight) | [⬇️ Download APK](https://github.com/mohammed-m-alhaj/taskflow/releases/download/v1.0.0/TaskFlow_Mobile_Optimized.apk) |
-| **Universal** | **All Devices** | **~54.5 MB** | Older phones, emulators, or ARMv7/x86_64 devices | [⬇️ Download APK](https://github.com/mohammed-m-alhaj/taskflow/releases/download/v1.0.0/TaskFlow_Universal.apk) |
+| **Optimized** | **ARM64-v8a** | **~19.4 MB** | **Most Modern Phones** (Faster download, lightweight) | [⬇️ Download APK](https://github.com/alhaj-ai/taskflow/releases/download/v1.0.0/TaskFlow_Mobile_Optimized.apk) |
+| **Universal** | **All Devices** | **~54.5 MB** | Older phones, emulators, or ARMv7/x86_64 devices | [⬇️ Download APK](https://github.com/alhaj-ai/taskflow/releases/download/v1.0.0/TaskFlow_Universal.apk) |
 
 ---
 
@@ -195,13 +195,11 @@ flutter run
 
 ---
 
-## 📘 Documentation & Manuals
+## 📘 Documentation & References
 
-Comprehensive technical architecture manuals and source code references are bundled directly in the [`docs/`](docs/) directory:
-
-- 🏛️ [TaskFlow Architecture & System Design Manual (PDF)](docs/TaskFlow_Architecture_Manual.pdf)
-- 📱 [Screens, State Providers & Widgets Guide (PDF)](docs/TaskFlow_Screens_and_Providers_Guide.pdf)
-- 💻 [Complete Source Code Reference (PDF)](docs/TaskFlow_Lib_Source_Code_Manual.pdf)
+- 🏛️ **Interactive OpenAPI / Swagger UI**: Available at `http://localhost:8000/docs` when the FastAPI backend is running.
+- 📱 **Arabic Documentation**: Full Arabic guide available in [`README-AR.md`](README-AR.md).
+- 🧪 **Automated Verification Suite**: End-to-end API, relational cascade, and cross-user isolation tests in [`Backend/test_backend.py`](Backend/test_backend.py).
 
 ---
 
@@ -246,12 +244,12 @@ This repository is licensed under the [MIT License](LICENSE) — free for person
 
 <div align="center">
 
-**If you found TaskFlow helpful, please give it a ⭐ on [GitHub](https://github.com/mohammed-m-alhaj/taskflow)! It helps more developers discover the project.**
+**If you found TaskFlow helpful, please give it a ⭐ on [GitHub](https://github.com/alhaj-ai/taskflow)! It helps more developers discover the project.**
 
 <br/>
 
-[![GitHub Profile](https://img.shields.io/badge/GitHub-mohammed--m--alhaj-181717?style=flat-square&logo=github)](https://github.com/mohammed-m-alhaj)
-[![Report Issue](https://img.shields.io/badge/Report_Issue-red?style=flat-square&logo=github)](https://github.com/mohammed-m-alhaj/taskflow/issues)
+[![GitHub Profile](https://img.shields.io/badge/GitHub-alhaj--ai-181717?style=flat-square&logo=github)](https://github.com/alhaj-ai)
+[![Report Issue](https://img.shields.io/badge/Report_Issue-red?style=flat-square&logo=github)](https://github.com/alhaj-ai/taskflow/issues)
 
 <br/>
 
